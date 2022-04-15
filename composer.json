@@ -16,15 +16,5 @@
         "psr-4": {
             "PayamResan\\Package\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "PayamResan\\Package\\Laravel\\PayamResanServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Payamresan\\Package\\Laravel\\Facade\\PayamResanFacade"
-            }
-        }
     }
 }
