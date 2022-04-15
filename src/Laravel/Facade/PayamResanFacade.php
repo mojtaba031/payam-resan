@@ -1,5 +1,5 @@
 <?php
-    namespace Payamresan\Package\Laravel\Facade;
+    namespace PayamResan\Package\Laravel\Facade;
 
     use Illuminate\Support\Facades\Facade;
 
