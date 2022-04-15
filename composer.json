@@ -1,0 +1,30 @@
+{
+    "name": "payam-resan/laravel",
+    "description": "package for manage sms with ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mojtaba shafizadeh",
+            "email": "mojtaba031@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayamResan\\Package\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PayamResan\\Package\\Laravel\\PayamResanServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Payamresan\\Package\\Laravel\\Facade\\PayamResanFacade"
+            }
+        }
+    }
+}
